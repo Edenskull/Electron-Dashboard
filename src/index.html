@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
     <link rel="stylesheet" href="index.css">
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+</head>
+<body>
+    <main>
+        <h1 id="clock"></h1>
+        <p>Welcome to your Electron application.</p>
+    </main>
+    <div class="sidebar">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="..\node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="frontWorker.js"></script>
+</body>
 </html>
